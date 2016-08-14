@@ -1,7 +1,38 @@
 /* 
-This library was developed for fast prototype code that use SPI
-calls, it's pretty fast and can use legacy mode.
-Nothing special here....
+SPI_ESP. An SPI library method for easy tranfer data using SPI
+
+This is a test to create an opimized standard method for fast transfer SPI between libraries.
+Use is simple:
+
+	1) startTransaction
+		2) writeByte_cont or writeWord_cont
+		...
+		...
+		n) writeByte_last or writeWord_last
+	x) endTransaction
+	
+ This library works with: Any 8bit arduino using LAST IDE core!
+---------------------------------------------------------------------------------------------------------------------
+Version history:
+0.1: Early alpha.
+---------------------------------------------------------------------------------------------------------------------
+		Copyright (c) 2016, s.u.m.o.t.o.y [sumotoy(at)gmail.com]
+		Coded by: Max MC Costa
+---------------------------------------------------------------------------------------------------------------------
+Licence:
+	Licensed as GNU General Public License.
+    SPI_ESP Library is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    SPI_ESP Library is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
  */
  
 #ifndef _SPI_ESPLIB_H_INCLUDED
