@@ -1,0 +1,24 @@
+{
+  "name": "SPI_ESP",
+  "keywords": "SPI",
+  "description": "A collection of SPI methods to simplify fast SPI transfers",
+  "authors": 
+  {
+    "name": "sumotoy",
+    "email": "sumotoy@gmail.com",
+    "url": "http://sumotoy.com",
+	"maintainer": true
+  },  
+  "version": "0.1.0",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/sumotoy/SPI_ESP.git"
+  },
+  "examples": [
+    "examples/*/*.ino",
+    "examples/*/*/*.ino"
+  ],  
+  "frameworks": "arduino",
+  "platforms": "espressif"
+}
